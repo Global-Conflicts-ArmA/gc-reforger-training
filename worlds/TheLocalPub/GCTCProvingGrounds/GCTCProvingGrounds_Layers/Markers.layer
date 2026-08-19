@@ -242,6 +242,30 @@ $grp PolylineShapeEntity : "{A0468F86F76FCEE7}Prefabs/Logic/Map/TILW_MapShape.et
    }
   }
  }
+ Green_ArtyArea {
+  components {
+   TILW_MapShapeComponent "{6508F5526836BC09}" {
+    m_color 0.071 0.561 0.192 0.392
+    m_drawLine 1
+    m_lineWidth 3
+   }
+  }
+  coords 883.906 1.842 2909.885
+  Points {
+   ShapePoint "{670F04ADCC0B6AA8}" {
+    Position 141.564 36.688 -153.079
+   }
+   ShapePoint "{671F3D98BFA609B8}" {
+    Position 24.109 36.378 6.181
+   }
+   ShapePoint "{671F3D98AB391189}" {
+    Position -292.392 35.253 -225.042
+   }
+   ShapePoint "{671F3D98A8B05100}" {
+    Position -239.384 37.158 -305.131
+   }
+  }
+ }
 }
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
  SpawnMarker {
