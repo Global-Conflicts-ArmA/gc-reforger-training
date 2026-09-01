@@ -242,6 +242,30 @@ $grp PolylineShapeEntity : "{A0468F86F76FCEE7}Prefabs/Logic/Map/TILW_MapShape.et
    }
   }
  }
+ Green_ArtyArea {
+  components {
+   TILW_MapShapeComponent "{6508F5526836BC09}" {
+    m_color 0.071 0.561 0.192 0.392
+    m_drawLine 1
+    m_lineWidth 3
+   }
+  }
+  coords 883.906 1.842 2909.885
+  Points {
+   ShapePoint "{670F04ADCC0B6AA8}" {
+    Position 141.564 36.688 -153.079
+   }
+   ShapePoint "{671F3D98BFA609B8}" {
+    Position 24.109 36.378 6.181
+   }
+   ShapePoint "{671F3D98AB391189}" {
+    Position -292.392 35.253 -225.042
+   }
+   ShapePoint "{671F3D98A8B05100}" {
+    Position -239.384 37.158 -305.131
+   }
+  }
+ }
 }
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
  SpawnMarker {
@@ -417,4 +441,37 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_iZOrder 10
   m_bShowForAnyFaction 1
  }
+ Gun_line {
+  coords 800.708 39 2810.629
+  angles 0 87.074 0
+  m_MarkerColor 0 0.25 1 1
+  m_sQuadName "flag-2"
+  m_fWorldSize 40
+  m_sDescription "Artillery training/Gun line"
+  m_bUseWorldScale 0
+  m_bVisibleForEmptyFaction 1
+  m_iZOrder 10
+  m_bShowForAnyFaction 1
+ }
+}
+GenericEntity : "{E1FD1ACDA98123AE}Prefabs/Props/Military/Arsenal/AmmoBoxes/US/AmmoBoxArsenal_Mortar_US.et" {
+ components {
+  SCR_FactionAffiliationComponent "{5A50E7650A1AE9EC}" {
+   "faction affiliation" "USSR"
+  }
+  SCR_ResourceComponent "{5E5ABDF371AE8B21}" {
+   m_aContainers {
+    SCR_ResourceContainer "{6A2687DB19E7DD59}" {
+     m_eResourceRights ALL
+     m_fResourceValueCurrent 10000000000
+     m_fResourceValueMax 10000000000
+    }
+   }
+  }
+  SCR_ResupplySupportStationComponent "{5E2CE1BA1701C633}" {
+   Enabled 0
+  }
+ }
+ coords 953.379 39.344 2752.832
+ angles 0 55.432 0
 }

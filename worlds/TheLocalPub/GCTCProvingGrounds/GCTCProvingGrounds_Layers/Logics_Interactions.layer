@@ -1,7 +1,7 @@
 $grp GenericEntity {
  Spawn {
   coords 1435.883 37.938 2964.714
-  angles 0 -10.711 0
+  angles 0 169.289 0
  }
  ParachuteTraining {
   components {
@@ -14,6 +14,10 @@ $grp GenericEntity {
  BoatTraining {
   coords 1155.757 1.156 3282.483
   angles 0 131.512 0
+ }
+ GunLine {
+  coords 799.683 39 2812.146
+  angles 0 144.874 0
  }
 }
 $grp PK_EntityDeleter {
@@ -79,7 +83,11 @@ $grp PK_EntityDeleter {
    "{2B532EC12F7FB1DE}Prefabs/Vegetation/Tree/t_betula_pendula/t_betula_pendula_3s.et"
    "{DA8942CAD83BA70C}Prefabs/Vegetation/Tree/t_betula_pendula/t_betula_pendula_3sw.et"
    "{04592C849978A51C}Prefabs/Vegetation/Tree/t_sorbus_aucuparia/t_sorbus_aucuparia_2f.et"
+   "{50E63E69B37539DB}Prefabs/Rocks/Granite/GraniteSurfaceStone_01.et"
+   "{DDDB760DD58FD97A}Prefabs/Rocks/Granite/Granite_Cluster_05.et"
+   "{FA6727A124372434}Prefabs/Rocks/Granite/GraniteRock_02.et"
   }
+  m_bByParentOnly 0
   m_bPreviewShape 0
  }
 }
@@ -93,27 +101,35 @@ $grp GenericEntity : "{5B462DF843A26368}Prefabs/Utils/Interactions/TILW_Teleport
       }
       ActionTitle "ParachuteTrainingAreaTP"
       Duration 0
-      "Sort Priority" 3
+      "Sort Priority" 2
       m_actionName "Teleport: Parachute training area"
       m_locationName "ParachuteTraining"
-     }
-     TILW_TeleportInteraction "{66E344137CC14979}" {
-      ParentContextList {
-       "Interact_A"
-      }
-      ActionTitle "BoatTrainAreaTP"
-      "Sort Priority" 2
-      m_actionName "Teleport: Boat training area"
-      m_locationName "BoatTraining"
      }
      TILW_TeleportInteraction "{670F04AA39A9BC18}" {
       ParentContextList {
        "Interact_A"
       }
       ActionTitle "RangeTP"
-      "Sort Priority" 1
       m_actionName "Teleport: Open range area"
       m_locationName "RangePole"
+     }
+     TILW_TeleportInteraction "{6A2687EAE15F03DC}" {
+      ParentContextList {
+       "Interact_A"
+      }
+      ActionTitle "GunlineTP"
+      "Sort Priority" 1
+      m_actionName "Teleport: Gun-line"
+      m_locationName "GunLine"
+     }
+     TILW_TeleportInteraction "{66E344137CC14979}" {
+      ParentContextList {
+       "Interact_A"
+      }
+      ActionTitle "BoatTrainAreaTP"
+      "Sort Priority" 3
+      m_actionName "Teleport: Boat training area"
+      m_locationName "BoatTraining"
      }
     }
    }
@@ -128,9 +144,26 @@ $grp GenericEntity : "{5B462DF843A26368}Prefabs/Utils/Interactions/TILW_Teleport
      TILW_TeleportInteraction "{62EF76E608B6CB36}" {
       ActionTitle "SpawnTP"
       Duration 0
-      "Sort Priority" 1
       m_actionName "Teleport: Spawn"
       m_locationName "Spawn"
+     }
+     TILW_TeleportInteraction "{670F04AA147FF056}" {
+      ParentContextList {
+       "Interact_A"
+      }
+      ActionTitle "RangeTP"
+      "Sort Priority" 1
+      m_actionName "Teleport: Open range area"
+      m_locationName "RangePole"
+     }
+     TILW_TeleportInteraction "{6A2687E9C56B34D9}" {
+      ParentContextList {
+       "Interact_A"
+      }
+      ActionTitle "GunLineTP"
+      "Sort Priority" 2
+      m_actionName "Teleport: Gun-line"
+      m_locationName "GunLine"
      }
      TILW_TeleportInteraction "{66E327B29884E630}" {
       ParentContextList {
@@ -140,15 +173,6 @@ $grp GenericEntity : "{5B462DF843A26368}Prefabs/Utils/Interactions/TILW_Teleport
       "Sort Priority" 3
       m_actionName "Teleport: Parachute training area"
       m_locationName "ParachuteTraining"
-     }
-     TILW_TeleportInteraction "{670F04AA147FF056}" {
-      ParentContextList {
-       "Interact_A"
-      }
-      ActionTitle "RangeTP"
-      "Sort Priority" 2
-      m_actionName "Teleport: Open range area"
-      m_locationName "RangePole"
      }
     }
    }
@@ -165,9 +189,26 @@ $grp GenericEntity : "{5B462DF843A26368}Prefabs/Utils/Interactions/TILW_Teleport
       }
       ActionTitle "SpawnTP"
       Duration 0
-      "Sort Priority" 1
       m_actionName "Teleport: Spawn"
       m_locationName "Spawn"
+     }
+     TILW_TeleportInteraction "{670F04AA1A2B6D92}" {
+      ParentContextList {
+       "Interact_A"
+      }
+      ActionTitle "RangeTP"
+      "Sort Priority" 1
+      m_actionName "Teleport: Open range area"
+      m_locationName "RangePole"
+     }
+     TILW_TeleportInteraction "{6A2687EA9AB3F789}" {
+      ParentContextList {
+       "Interact_A"
+      }
+      ActionTitle "GunlineTP"
+      "Sort Priority" 2
+      m_actionName "Teleport: Gun-line"
+      m_locationName "GunLine"
      }
      TILW_TeleportInteraction "{66E344137CC14979}" {
       ParentContextList {
@@ -177,15 +218,6 @@ $grp GenericEntity : "{5B462DF843A26368}Prefabs/Utils/Interactions/TILW_Teleport
       "Sort Priority" 3
       m_actionName "Teleport: Boat training area"
       m_locationName "BoatTraining"
-     }
-     TILW_TeleportInteraction "{670F04AA1A2B6D92}" {
-      ParentContextList {
-       "Interact_A"
-      }
-      ActionTitle "RangeTP"
-      "Sort Priority" 2
-      m_actionName "Teleport: Open range area"
-      m_locationName "RangePole"
      }
     }
    }
@@ -202,7 +234,7 @@ $grp GenericEntity : "{5B462DF843A26368}Prefabs/Utils/Interactions/TILW_Teleport
       }
       ActionTitle "ParachuteTrainingAreaTP"
       Duration 0
-      "Sort Priority" 3
+      "Sort Priority" 2
       m_actionName "Teleport: Parachute training area"
       m_locationName "ParachuteTraining"
      }
@@ -212,16 +244,25 @@ $grp GenericEntity : "{5B462DF843A26368}Prefabs/Utils/Interactions/TILW_Teleport
       }
       ActionTitle "SpawnTP"
       Duration 0
-      "Sort Priority" 1
       m_actionName "Teleport: Spawn"
       m_locationName "Spawn"
+     }
+     TILW_TeleportInteraction "{6A2687EAFAA4C736}" {
+      ParentContextList {
+       "Interact_A"
+      }
+      ActionTitle "GunlineTP"
+      Duration 0
+      "Sort Priority" 1
+      m_actionName "Teleport: Gun-line"
+      m_locationName "GunLine"
      }
      TILW_TeleportInteraction "{66E344137CC14979}" {
       ParentContextList {
        "Interact_A"
       }
       ActionTitle "BoatTrainAreaTP"
-      "Sort Priority" 2
+      "Sort Priority" 3
       m_actionName "Teleport: Boat training area"
       m_locationName "BoatTraining"
      }
@@ -238,8 +279,73 @@ $grp GenericEntity : "{5B462DF843A26368}Prefabs/Utils/Interactions/TILW_Teleport
      TILW_TeleportInteraction "{62EF76E608B6CB36}" {
       ParentContextList +{
       }
-      ActionTitle "HomeTP"
+      ActionTitle "SpawnTP"
       Duration 0
+      m_actionName "Teleport: Spawn"
+      m_locationName "Spawn"
+     }
+     TILW_TeleportInteraction "{670F04AA39A9BC18}" {
+      ParentContextList {
+       "Interact_A"
+      }
+      ActionTitle "RangeTP"
+      "Sort Priority" 1
+      m_actionName "Teleport: Open range area"
+      m_locationName "RangePole"
+     }
+     TILW_TeleportInteraction "{6A2687EA0A23E4E7}" {
+      ParentContextList {
+       "Interact_A"
+      }
+      ActionTitle "GunlineTP"
+      Duration 0
+      "Sort Priority" 2
+      m_actionName "Teleport: Gun-line"
+      m_locationName "GunLine"
+     }
+     TILW_TeleportInteraction "{69352DA33F8B0115}" {
+      ParentContextList {
+       "Interact_A"
+      }
+      ActionTitle "ParachuteTrainingAreaTP"
+      Duration 0
+      "Sort Priority" 3
+      m_actionName "Teleport: Parachute training area"
+      m_locationName "ParachuteTraining"
+     }
+     TILW_TeleportInteraction "{66E344137CC14979}" {
+      ParentContextList {
+       "Interact_A"
+      }
+      ActionTitle "BoatTrainAreaTP"
+      "Sort Priority" 4
+      m_actionName "Teleport: Boat training area"
+      m_locationName "BoatTraining"
+     }
+    }
+   }
+  }
+  coords 3403.349 5.004 1297.839
+  angles 0 -42.383 0
+ }
+ FlagTP_GunLine {
+  components {
+   ActionsManagerComponent "{62EF76E0D47ED96A}" {
+    additionalActions {
+     TILW_TeleportInteraction "{62EF76E608B6CB36}" {
+      ParentContextList +{
+      }
+      ActionTitle "ParachuteTrainingAreaTP"
+      Duration 0
+      "Sort Priority" 2
+      m_actionName "Teleport: Parachute training area"
+      m_locationName "ParachuteTraining"
+     }
+     TILW_TeleportInteraction "{6A2687E9E83CCB79}" {
+      ParentContextList {
+       "Interact_A"
+      }
+      ActionTitle "SpawnTP"
       m_actionName "Teleport: Spawn"
       m_locationName "Spawn"
      }
@@ -257,24 +363,30 @@ $grp GenericEntity : "{5B462DF843A26368}Prefabs/Utils/Interactions/TILW_Teleport
        "Interact_A"
       }
       ActionTitle "BoatTrainAreaTP"
-      "Sort Priority" 2
+      "Sort Priority" 3
       m_actionName "Teleport: Boat training area"
       m_locationName "BoatTraining"
-     }
-     TILW_TeleportInteraction "{69352DA33F8B0115}" {
-      ParentContextList {
-       "Interact_A"
-      }
-      ActionTitle "ParachuteTrainingAreaTP"
-      Duration 0
-      "Sort Priority" 3
-      m_actionName "Teleport: Parachute training area"
-      m_locationName "ParachuteTraining"
      }
     }
    }
   }
-  coords 3403.349 5.004 1297.839
-  angles 0 -42.383 0
+  coords 800.904 40.296 2810.432
+  angles 0 -12.666 0
  }
+}
+GenericEntity : "{E55FC02F8C1518A2}Prefabs/Structures/Military/Flags/FlagPole_02/FlagPole_02_V1_US.et" {
+ components {
+  SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+   m_sDefaultMaterial "{5A1B3B1C76F584C8}Assets/Props/Fabric/Flags/Data/Flag_1_2_Blue.emat"
+  }
+  SlotManagerComponent "{55DAE04E55ECE7FA}" {
+   Slots {
+    EntitySlotInfo Flag {
+     Prefab "{9A8AE4E1D90840AC}Prefabs/Props/Fabric/Flags/Flag_1_2_Blue_01.et"
+    }
+   }
+  }
+ }
+ coords 800.876 39 2810.423
+ angles 0 -12.666 0
 }

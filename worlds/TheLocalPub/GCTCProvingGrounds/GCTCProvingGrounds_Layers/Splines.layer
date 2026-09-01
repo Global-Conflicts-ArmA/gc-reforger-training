@@ -256,6 +256,43 @@ $grp SplineShapeEntity {
    }
   }
  }
+ {
+  coords 1497.35 38 2880.572
+  Points {
+   ShapePoint "{6A2687F876CE36EE}" {
+    Position 0.081 0 0.142
+   }
+   ShapePoint "{6A2687F876CF3FC0}" {
+    Position -7.029 0 -7.669
+   }
+   ShapePoint "{6A2687F87512B01A}" {
+    Position -57.475 0 -1.346
+   }
+  }
+  {
+   RoadGeneratorEntity : "{F9CD1B0F842D9F60}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/WEGenerators/Decals/Runway/RG_Runway_Line50_01_Red_GCTCProvingGrounds.et" {
+    coords 0 0 0
+    {
+     RoadEntity {
+      ID "56A8E4228BE30287"
+      SplinePoints {
+       ShapePoint "{56A8E422A6B33671}" {
+        Position 0.081 0 0.142
+       }
+       ShapePoint "{56A8E422A6B3348B}" {
+        Position -7.029 0 -7.669
+       }
+       ShapePoint "{6A2687F863218446}" {
+        Position -57.475 0 -1.346
+       }
+      }
+      IsClosedSpline 0
+      Width 0.55
+     }
+    }
+   }
+  }
+ }
 }
 $grp PolylineShapeEntity : "{A0468F86F76FCEE7}Prefabs/Logic/Map/TILW_MapShape.et" {
  MSRSpineMarker {

@@ -1,16 +1,203 @@
+$grp GenericEntity : "{30B4A1C276FE6D81}Prefabs/Items/Ammo/ArtilleryShellStorage/ArtilleryShellStorage_HE_Transport.et" {
+ {
+  coords 775.069 39 2737.174
+  angles 0 -22.358 0
+ }
+ {
+  coords 720.332 39 2698.29
+  angles 0 -22.358 0
+ }
+ {
+  coords 666.99 39 2661.619
+  angles 0 -22.358 0
+ }
+}
+$grp GenericEntity : "{3C40597E003E002A}Prefabs/Items/Ammo/ArtilleryShellStorage/ArtilleryShellStorage.et" {
+ {
+  coords 775.89 39 2737.592
+  angles 0 -93.289 0
+ }
+ {
+  coords 721.153 39 2698.707
+  angles 0 -93.289 0
+ }
+ {
+  coords 667.812 39 2662.036
+  angles 0 -93.289 0
+ }
+}
+$grp GenericEntity : "{7C7DA4E0663B42C9}PrefabsEditable/Auto/Props/Military/AmmoBoxes/EquipmentBoxStack/E_EquipmentBoxStack_US_01_V1.et" {
+ {
+  components {
+   SCR_SoundDataComponent "{5C53391603B5CF41}" {
+    Enabled 1
+   }
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    Enabled 1
+    UseCapacityCoefficient 0
+    MaxCumulativeVolume 100000000
+    MultiSlots {
+     MultiSlotConfiguration "{66FCF01CE409245A}" {
+      SlotTemplate SCR_EquipmentStorageSlot Tablet {
+       Prefab "{B570855ECA503B21}Prefabs/Items/Equipment/Tablets/FDC_Tablet.et"
+      }
+      NumSlots 10
+     }
+    }
+   }
+   ActionsManagerComponent "{5476B36C403D4CC0}" {
+    Enabled 1
+    ActionContexts {
+     UserActionContext "{5476B36C47B0461A}" {
+      Position PointInfo "{5476B36C45ADDA89}" {
+       Offset 0 0.9 0
+      }
+     }
+    }
+   }
+  }
+  coords 773.742 39 2737.756
+  angles 0 54.326 0
+ }
+ {
+  components {
+   SCR_SoundDataComponent "{5C53391603B5CF41}" {
+    Enabled 1
+   }
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    Enabled 1
+    UseCapacityCoefficient 0
+    MaxCumulativeVolume 100000000
+    MultiSlots {
+     MultiSlotConfiguration "{66FCF01CE409245A}" {
+      SlotTemplate SCR_EquipmentStorageSlot Tablet {
+       Prefab "{B570855ECA503B21}Prefabs/Items/Equipment/Tablets/FDC_Tablet.et"
+      }
+      NumSlots 10
+     }
+    }
+   }
+   ActionsManagerComponent "{5476B36C403D4CC0}" {
+    Enabled 1
+    ActionContexts {
+     UserActionContext "{5476B36C47B0461A}" {
+      Position PointInfo "{5476B36C45ADDA89}" {
+       Offset 0 0.9 0
+      }
+     }
+    }
+   }
+  }
+  coords 718.249 39 2699.769
+  angles 0 54.326 0
+ }
+ {
+  components {
+   SCR_SoundDataComponent "{5C53391603B5CF41}" {
+    Enabled 1
+   }
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    Enabled 1
+    UseCapacityCoefficient 0
+    MaxCumulativeVolume 100000000
+    MultiSlots {
+     MultiSlotConfiguration "{66FCF01CE409245A}" {
+      SlotTemplate SCR_EquipmentStorageSlot Tablet {
+       Prefab "{B570855ECA503B21}Prefabs/Items/Equipment/Tablets/FDC_Tablet.et"
+      }
+      NumSlots 10
+     }
+    }
+   }
+   ActionsManagerComponent "{5476B36C403D4CC0}" {
+    Enabled 1
+    ActionContexts {
+     UserActionContext "{5476B36C47B0461A}" {
+      Position PointInfo "{5476B36C45ADDA89}" {
+       Offset 0 0.9 0
+      }
+     }
+    }
+   }
+  }
+  coords 664.995 39 2663.082
+  angles 0 54.326 0
+ }
+}
 $grp GenericEntity : "{A97EDE8C0375CA9D}PrefabsEditable/Auto/Props/Military/Compositions/CIV/E_ArsenalBox_EVERYTHING.et" {
  {
+  components {
+   SCR_ResourceComponent "{5D7D07D2F7A252D2}" {
+    m_aContainers {
+     SCR_ResourceContainer "{6A2687DBC3F1704C}" {
+      m_eResourceRights ALL
+      m_fResourceValueCurrent 10000000000
+      m_fResourceValueMax 10000000000
+     }
+    }
+   }
+   UniversalInventoryStorageComponent "{56F2C6D15FE6C4CE}" {
+    UseCapacityCoefficient 0
+    MaxCumulativeVolume 100000000
+   }
+  }
   coords 1438.251 38.476 2939.095
  }
  {
+  components {
+   SCR_ResourceComponent "{5D7D07D2F7A252D2}" {
+    m_aContainers {
+     SCR_ResourceContainer "{6A2687DBC3F1704C}" {
+      m_eResourceRights ALL
+      m_fResourceValueCurrent 10000000000
+      m_fResourceValueMax 10000000000
+     }
+    }
+   }
+   UniversalInventoryStorageComponent "{56F2C6D15FE6C4CE}" {
+    UseCapacityCoefficient 0
+    CapacityCoefficient 1000000000
+    MaxCumulativeVolume 100000000
+   }
+  }
   coords 1448.267 38.684 2941.47
   angles 0 1.637 0
  }
  {
+  components {
+   SCR_ResourceComponent "{5D7D07D2F7A252D2}" {
+    m_aContainers {
+     SCR_ResourceContainer "{6A2687DBC3F1704C}" {
+      m_eResourceRights ALL
+      m_fResourceValueCurrent 10000000000
+      m_fResourceValueMax 10000000000
+     }
+    }
+   }
+   UniversalInventoryStorageComponent "{56F2C6D15FE6C4CE}" {
+    UseCapacityCoefficient 0
+    MaxCumulativeVolume 100000000
+   }
+  }
   coords 1428.09 38.483 2936.437
   angles 0 -178.007 0
  }
  {
+  components {
+   SCR_ResourceComponent "{5D7D07D2F7A252D2}" {
+    m_aContainers {
+     SCR_ResourceContainer "{6A2687DBC3F1704C}" {
+      m_eResourceRights ALL
+      m_fResourceValueCurrent 10000000000
+      m_fResourceValueMax 10000000000
+     }
+    }
+   }
+   UniversalInventoryStorageComponent "{56F2C6D15FE6C4CE}" {
+    UseCapacityCoefficient 0
+    MaxCumulativeVolume 100000000
+   }
+  }
   coords 1162.739 1.156 3286.896
   angles 0 131.512 0
  }
@@ -20,6 +207,19 @@ $grp GenericEntity : "{A97EDE8C0375CA9D}PrefabsEditable/Auto/Props/Military/Comp
     m_eSupportedArsenalItemTypes 1114144
     m_eSupportedArsenalItemModes 144
    }
+   SCR_ResourceComponent "{5D7D07D2F7A252D2}" {
+    m_aContainers {
+     SCR_ResourceContainer "{6A2687DBC3F1704C}" {
+      m_eResourceRights ALL
+      m_fResourceValueCurrent 10000000000
+      m_fResourceValueMax 10000000000
+     }
+    }
+   }
+   UniversalInventoryStorageComponent "{56F2C6D15FE6C4CE}" {
+    UseCapacityCoefficient 0
+    MaxCumulativeVolume 100000000
+   }
   }
   coords 2513.835 147.807 2259.833
   angles 0 -135.042 0
@@ -28,6 +228,19 @@ $grp GenericEntity : "{A97EDE8C0375CA9D}PrefabsEditable/Auto/Props/Military/Comp
   components {
    EverythingArsenal_ArsenalComponent "{56F2C6D1431AD9AF}" {
     m_eSupportedArsenalItemTypes 32896
+   }
+   SCR_ResourceComponent "{5D7D07D2F7A252D2}" {
+    m_aContainers {
+     SCR_ResourceContainer "{6A2687DBC3F1704C}" {
+      m_eResourceRights ALL
+      m_fResourceValueCurrent 10000000000
+      m_fResourceValueMax 10000000000
+     }
+    }
+   }
+   UniversalInventoryStorageComponent "{56F2C6D15FE6C4CE}" {
+    UseCapacityCoefficient 0
+    MaxCumulativeVolume 100000000
    }
   }
   coords 2511.263 147.874 2263.065
@@ -39,6 +252,19 @@ $grp GenericEntity : "{A97EDE8C0375CA9D}PrefabsEditable/Auto/Props/Military/Comp
     m_eSupportedArsenalItemTypes 131366
     m_eSupportedArsenalItemModes 126
    }
+   SCR_ResourceComponent "{5D7D07D2F7A252D2}" {
+    m_aContainers {
+     SCR_ResourceContainer "{6A2687DBC3F1704C}" {
+      m_eResourceRights ALL
+      m_fResourceValueCurrent 10000000000
+      m_fResourceValueMax 10000000000
+     }
+    }
+   }
+   UniversalInventoryStorageComponent "{56F2C6D15FE6C4CE}" {
+    UseCapacityCoefficient 0
+    MaxCumulativeVolume 100000000
+   }
   }
   coords 2514.208 147.325 2251.719
   angles 0 -66.329 0
@@ -49,8 +275,190 @@ $grp GenericEntity : "{A97EDE8C0375CA9D}PrefabsEditable/Auto/Props/Military/Comp
     m_eSupportedArsenalItemTypes ROCKET_LAUNCHER
     m_eSupportedArsenalItemModes 126
    }
+   SCR_ResourceComponent "{5D7D07D2F7A252D2}" {
+    m_aContainers {
+     SCR_ResourceContainer "{6A2687DBC3F1704C}" {
+      m_eResourceRights ALL
+      m_fResourceValueCurrent 10000000000
+      m_fResourceValueMax 10000000000
+     }
+    }
+   }
+   UniversalInventoryStorageComponent "{56F2C6D15FE6C4CE}" {
+    UseCapacityCoefficient 0
+    MaxCumulativeVolume 100000000
+   }
   }
   coords 2515.367 147.598 2256.126
   angles 0 -19.146 0
+ }
+ {
+  components {
+   SCR_ResourceComponent "{5D7D07D2F7A252D2}" {
+    m_aContainers {
+     SCR_ResourceContainer "{6A2687DBC3F1704C}" {
+      m_eResourceRights ALL
+      m_fResourceValueCurrent 10000000000
+      m_fResourceValueMax 10000000000
+     }
+    }
+   }
+   UniversalInventoryStorageComponent "{56F2C6D15FE6C4CE}" {
+    UseCapacityCoefficient 0
+    MaxCumulativeVolume 100000000
+   }
+  }
+  coords 797.794 39 2814.2
+ }
+}
+$grp GenericEntity : "{E1FD1ACDA98123AE}Prefabs/Props/Military/Arsenal/AmmoBoxes/US/AmmoBoxArsenal_Mortar_US.et" {
+ {
+  components {
+   SCR_ResourceComponent "{5E5ABDF371AE8B21}" {
+    m_aContainers {
+     SCR_ResourceContainer "{6A2687DB19E7DD59}" {
+      m_eResourceRights ALL
+      m_fResourceValueCurrent 10000000000
+      m_fResourceValueMax 10000000000
+     }
+    }
+   }
+   SCR_ResupplySupportStationComponent "{5E2CE1BA1701C633}" {
+    Enabled 0
+   }
+  }
+  coords 715.915 39 2694.971
+  angles 0 55.432 0
+ }
+ {
+  components {
+   SCR_ResourceComponent "{5E5ABDF371AE8B21}" {
+    m_aContainers {
+     SCR_ResourceContainer "{6A2687DB19E7DD59}" {
+      m_eResourceRights ALL
+      m_fResourceValueCurrent 10000000000
+      m_fResourceValueMax 10000000000
+     }
+    }
+   }
+   SCR_ResupplySupportStationComponent "{5E2CE1BA1701C633}" {
+    Enabled 0
+   }
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    MultiSlots {
+     MultiSlotConfiguration "{6A2687D03B66FD60}" {
+      SlotTemplate EquipmentStorageSlot fdc {
+       Prefab "{B570855ECA503B21}Prefabs/Items/Equipment/Tablets/FDC_Tablet.et"
+      }
+      NumSlots 10
+     }
+    }
+   }
+   UniversalInventoryStorageComponent "{58A17A341AB8F069}" {
+    MaxCumulativeVolume 10000000
+   }
+  }
+  coords 772.314 39 2732.729
+  angles 0 55.432 0
+ }
+ {
+  components {
+   SCR_ResourceComponent "{5E5ABDF371AE8B21}" {
+    m_aContainers {
+     SCR_ResourceContainer "{6A2687DB19E7DD59}" {
+      m_eResourceRights ALL
+      m_fResourceValueCurrent 10000000000
+      m_fResourceValueMax 10000000000
+     }
+    }
+   }
+   SCR_ResupplySupportStationComponent "{5E2CE1BA1701C633}" {
+    Enabled 0
+   }
+  }
+  coords 662.276 39 2658.597
+  angles 0 55.432 0
+ }
+ {
+  components {
+   SCR_ResourceComponent "{5E5ABDF371AE8B21}" {
+    m_aContainers {
+     SCR_ResourceContainer "{6A2687DB19E7DD59}" {
+      m_eResourceRights ALL
+      m_fResourceValueCurrent 10000000000
+      m_fResourceValueMax 10000000000
+     }
+    }
+   }
+   SCR_ResupplySupportStationComponent "{5E2CE1BA1701C633}" {
+    Enabled 0
+   }
+  }
+  coords 906.151 39.031 2825.467
+ }
+ {
+  components {
+   SCR_ResourceComponent "{5E5ABDF371AE8B21}" {
+    m_aContainers {
+     SCR_ResourceContainer "{6A2687DB19E7DD59}" {
+      m_eResourceRights ALL
+      m_fResourceValueCurrent 10000000000
+      m_fResourceValueMax 10000000000
+     }
+    }
+   }
+   SCR_ResupplySupportStationComponent "{5E2CE1BA1701C633}" {
+    Enabled 0
+   }
+  }
+  coords 929.875 38.971 2790.288
+  angles 0 55.432 0
+ }
+}
+$grp GenericEntity : "{FCE3FA547AA13ECC}Prefabs/Structures/Military/Flags/FlagPole_02/FlagPole_02_V2.et" {
+ {
+  components {
+   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_sDefaultMaterial "{DB52C2D4463AA0A0}Assets/Props/Fabric/Flags/Data/Flag_2_3_Blue.emat"
+   }
+   SlotManagerComponent "{55DAE04E55ECE7FA}" {
+    Slots {
+     EntitySlotInfo Flag {
+      Prefab "{9A8AE4E1D90840AC}Prefabs/Props/Fabric/Flags/Flag_1_2_Blue_01.et"
+     }
+    }
+   }
+  }
+  coords 666.85 39 2665.158
+ }
+ {
+  components {
+   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_sDefaultMaterial "{4A53EF08996B2AA7}Assets/Props/Fabric/Flags/Data/Flag_2_3_Green.emat"
+   }
+   SlotManagerComponent "{55DAE04E55ECE7FA}" {
+    Slots {
+     EntitySlotInfo Flag {
+      Prefab "{0CA57DAC081DF11A}Prefabs/Props/Fabric/Flags/Flag_1_2_Green_01.et"
+     }
+    }
+   }
+  }
+  coords 719.686 39 2701.621
+ }
+ {
+  components {
+   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_sDefaultMaterial "{362AC46447DBE58B}Assets/Props/Fabric/Flags/Data/Flag_1_2_Red.emat"
+   }
+   SlotManagerComponent "{55DAE04E55ECE7FA}" {
+    Slots {
+     EntitySlotInfo Flag {
+      Prefab "{E53A39F9653831CE}Prefabs/Props/Fabric/Flags/Flag_1_2_Red_01.et"
+     }
+    }
+   }
+  }
+  coords 775.875 39 2739.548
  }
 }
