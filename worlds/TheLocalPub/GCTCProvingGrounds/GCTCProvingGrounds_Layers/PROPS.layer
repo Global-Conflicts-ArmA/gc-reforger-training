@@ -13,7 +13,7 @@ GenericEntity {
  scale 1000
 }
 GenericEntity : "{01EB4A20B6BB6390}Prefabs/Structures/Misc/Nargile.et" {
- coords 899.289 7.588 1498.468
+ coords 899.289 16.292 1498.468
  angles -1.724 -74.536 11.095
  scale 50
 }
@@ -5182,22 +5182,6 @@ $grp GenericEntity : "{E55FC02F8C1518A2}Prefabs/Structures/Military/Flags/FlagPo
    }
   }
   coords 1195.396 2042.001 2826.187
-  angles 0 -12.666 0
- }
- RangePole {
-  components {
-   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
-    m_sDefaultMaterial "{5A1B3B1C76F584C8}Assets/Props/Fabric/Flags/Data/Flag_1_2_Blue.emat"
-   }
-   SlotManagerComponent "{55DAE04E55ECE7FA}" {
-    Slots {
-     EntitySlotInfo Flag {
-      Prefab "{9A8AE4E1D90840AC}Prefabs/Props/Fabric/Flags/Flag_1_2_Blue_01.et"
-     }
-    }
-   }
-  }
-  coords 2505.287 147.82 2261.212
   angles 0 -12.666 0
  }
  {
