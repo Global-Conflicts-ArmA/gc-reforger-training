@@ -250,7 +250,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
   components {
    EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
-     "{0F200E9F3D3AD905}Prefabs/Vehicles/Wheeled/JLTV/OGPK/M2HB/JLTV_OGPK_Woodland.et"
+     "{0F200E9F3D3AD905}Prefabs/Vehicles/Wheeled/JLTV/OGPK/M2HB/JLTV_OGPK_M2HB_Woodland.et"
     }
     m_fRespawnDistance 30
     m_fRespawnDelay 10
@@ -276,7 +276,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
   components {
    EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
-     "{CFC943343B0D4FBA}Prefabs/Vehicles/Wheeled/JLTV/CROWS_1/M134/JLTV_CROWS_M134_Woodland.et"
+     "{CFC943343B0D4FBA}Prefabs/Vehicles/Wheeled/JLTV/CROWS/M134/JLTV_CROWS_M134_Woodland.et"
     }
     m_fRespawnDistance 30
     m_fRespawnDelay 10
@@ -289,7 +289,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
   components {
    EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
-     "{8A9444452D28F5B3}Prefabs/Vehicles/Wheeled/JLTV/CROWS_1/M240/JLTV_CROWS_M240_Woodland.et"
+     "{8A9444452D28F5B3}Prefabs/Vehicles/Wheeled/JLTV/CROWS/M240/JLTV_CROWS_M240_Woodland.et"
     }
     m_fRespawnDistance 30
     m_fRespawnDelay 10
@@ -302,7 +302,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
   components {
    EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
-     "{2E6481BC1EE9A767}Prefabs/Vehicles/Wheeled/JLTV/CROWS_1/M2HB/JLTV_CROWS_Woodland.et"
+     "{2E6481BC1EE9A767}Prefabs/Vehicles/Wheeled/JLTV/CROWS/M2HB/JLTV_CROWS_M2HB_Woodland.et"
     }
     m_fRespawnDistance 30
     m_fRespawnDelay 10
@@ -315,7 +315,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
   components {
    EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
-     "{D17CCBF7FE9AAFEC}Prefabs/Vehicles/Wheeled/JLTV/CROWS_2/JLTV_CROWSII_Woodland.et"
+     "{D17CCBF7FE9AAFEC}Prefabs/Vehicles/Wheeled/JLTV/CROWS_II/M230LF/JLTV_CROWS_II_M230LF_Woodland.et"
     }
     m_fRespawnDistance 30
     m_fRespawnDelay 10
@@ -328,7 +328,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
   components {
    EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
-     "{4DB3F284FE895321}Prefabs/Vehicles/Wheeled/JLTV/CROWS_2/Javelin/JLTV_CROWSII_Javelin_Woodland.et"
+     "{4DB3F284FE895321}Prefabs/Vehicles/Wheeled/JLTV/CROWS_II/Javelin/JLTV_CROWS_II_Javelin_Woodland.et"
     }
     m_fRespawnDistance 30
     m_fRespawnDelay 10
@@ -341,7 +341,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
   components {
    EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
-     "{A7E72E0E66B73009}Prefabs/Vehicles/Wheeled/JLTV/CROWS_2/AIM92/JLTV_CROWSII_AIM92_Woodland.et"
+     "{A7E72E0E66B73009}Prefabs/Vehicles/Wheeled/JLTV/CROWS_II/AIM92/JLTV_CROWS_II_AIM92_Woodland.et"
     }
     m_fRespawnDistance 30
     m_fRespawnDelay 10
@@ -354,7 +354,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
   components {
    EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
-     "{D1D2D8ADC6E1D409}Prefabs/Vehicles/Tracked/M1A2/SEPV2/M1A2_SEPV2_TUSK_MERDC.et"
+     "{D1D2D8ADC6E1D409}Prefabs/Vehicles/Tracked/M1A1/M1A2/SEPv2/M1A2_SEPv2_TUSK_MERDC.et"
     }
     m_fRespawnDistance 30
     m_fRespawnDelay 10
@@ -640,7 +640,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
   components {
    EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
-     "{A2FDCCF036B73602}Prefabs/Vehicles/Tracked/BFV/M2A3/M2A3_MERDC.et"
+     "{A2FDCCF036B73602}Prefabs/Vehicles/Tracked/M2A2/M2A3/M2A3_MERDC.et"
     }
     m_fRespawnDistance 30
     m_fRespawnDelay 10
@@ -1000,62 +1000,4 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
   coords 809.917 39 2815.926
   angles 0 147.188 0
  }
-}
-$grp Turret : "{54838E573DCDC027}Prefabs/Weapons/Howitzers/M777/M777_Howitzer.et" {
- {
-  components {
-   SCR_DestructionMultiPhaseComponent "{51ACD09C524A7924}" {
-    Enabled 0
-    EnableDamage 0
-   }
-  }
-  coords 719.081 39 2690.387
-  angles 0 145.293 0
- }
- {
-  components {
-   SCR_DestructionMultiPhaseComponent "{51ACD09C524A7924}" {
-    Enabled 0
-    EnableDamage 0
-   }
-  }
-  coords 774.806 39 2728.983
-  angles 0 145.293 0
- }
- {
-  components {
-   SCR_DestructionMultiPhaseComponent "{51ACD09C524A7924}" {
-    Enabled 0
-    EnableDamage 0
-   }
-  }
-  coords 665.534 39 2653.3
-  angles 0 145.293 0
- }
-}
-$grp Turret : "{8094D99689ABE241}Prefabs/Weapons/Mortars/M252/Mortar_M252.et" {
- {
-  components {
-   SCR_DestructionMultiPhaseComponent "{51ACD09C524A7924}" {
-    Enabled 0
-    EnableDamage 0
-   }
-  }
-  coords 908.289 39.031 2823.799
-  angles 0 148.222 0
- }
- {
-  components {
-   SCR_DestructionMultiPhaseComponent "{51ACD09C524A7924}" {
-    Enabled 0
-    EnableDamage 0
-   }
-  }
-  coords 932.114 38.969 2788.197
-  angles 0 148.222 0
- }
-}
-Vehicle TF_Wheeled_2B1 : "{A78D786EFFDDC8FD}Prefabs/Vehicles/Wheeled/2B9/TF_Wheeled_2B9.et" {
- coords 956.284 39.344 2751.651
- angles 0 146.079 0
 }

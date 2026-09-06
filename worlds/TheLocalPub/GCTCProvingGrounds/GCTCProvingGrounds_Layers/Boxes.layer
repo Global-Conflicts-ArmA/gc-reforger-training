@@ -414,51 +414,25 @@ $grp GenericEntity : "{E1FD1ACDA98123AE}Prefabs/Props/Military/Arsenal/AmmoBoxes
   coords 929.875 38.971 2790.288
   angles 0 55.432 0
  }
-}
-$grp GenericEntity : "{FCE3FA547AA13ECC}Prefabs/Structures/Military/Flags/FlagPole_02/FlagPole_02_V2.et" {
  {
   components {
-   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
-    m_sDefaultMaterial "{DB52C2D4463AA0A0}Assets/Props/Fabric/Flags/Data/Flag_2_3_Blue.emat"
+   SCR_FactionAffiliationComponent "{5A50E7650A1AE9EC}" {
+    "faction affiliation" "USSR"
    }
-   SlotManagerComponent "{55DAE04E55ECE7FA}" {
-    Slots {
-     EntitySlotInfo Flag {
-      Prefab "{9A8AE4E1D90840AC}Prefabs/Props/Fabric/Flags/Flag_1_2_Blue_01.et"
+   SCR_ResourceComponent "{5E5ABDF371AE8B21}" {
+    m_aContainers {
+     SCR_ResourceContainer "{6A2687DB19E7DD59}" {
+      m_eResourceRights ALL
+      m_fResourceValueCurrent 10000000000
+      m_fResourceValueMax 10000000000
      }
     }
    }
-  }
-  coords 666.85 39 2665.158
- }
- {
-  components {
-   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
-    m_sDefaultMaterial "{4A53EF08996B2AA7}Assets/Props/Fabric/Flags/Data/Flag_2_3_Green.emat"
-   }
-   SlotManagerComponent "{55DAE04E55ECE7FA}" {
-    Slots {
-     EntitySlotInfo Flag {
-      Prefab "{0CA57DAC081DF11A}Prefabs/Props/Fabric/Flags/Flag_1_2_Green_01.et"
-     }
-    }
+   SCR_ResupplySupportStationComponent "{5E2CE1BA1701C633}" {
+    Enabled 0
    }
   }
-  coords 719.686 39 2701.621
- }
- {
-  components {
-   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
-    m_sDefaultMaterial "{362AC46447DBE58B}Assets/Props/Fabric/Flags/Data/Flag_1_2_Red.emat"
-   }
-   SlotManagerComponent "{55DAE04E55ECE7FA}" {
-    Slots {
-     EntitySlotInfo Flag {
-      Prefab "{E53A39F9653831CE}Prefabs/Props/Fabric/Flags/Flag_1_2_Red_01.et"
-     }
-    }
-   }
-  }
-  coords 775.875 39 2739.548
+  coords 953.379 39.344 2752.832
+  angles 0 55.432 0
  }
 }

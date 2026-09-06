@@ -139,24 +139,23 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  Parachuting {
   coords 3862.129 0 1984.952
   m_sTitle "Parachuting"
-  m_sTextData "<h3>DESCRIPTION</h3>"\
-  "At this time, Arma Reforger does not natively support parachuting. As a result, all parachute functionality is provided through mods and may not always behave perfectly. That said, the parachute mods currently in use are generally reliable and function as intended in most situations."\
-  "Our active parachute mod provides steerable canopies, allowing limited control during descent. Other available mods may offer static-line parachuting, but these are not currently in use."\
-  "Due to the lack of base-game support, ejecting from a moving helicopter or aircraft will cause you to be violently propelled in the direction of travel, often resulting in uncontrolled tumbling. While parachute deployment is still possible in this state, expect reduced situational awareness and a high likelihood of landing off target."\
-  "Jumping from a stationary or hovering platform will result in a clean vertical freefall with no tumbling or forward glide until the parachute is deployed."\
-  "The parachute occupies the backpack slot, which may limit your ability to carry additional equipment. This remains the primary limitation of the current system until a chest-mounted backpack or similar feature becomes available. "\
+  m_sTextData "<h2>ABOUT</h2>"\
+  "We have two types of parachutes. The T-10 static drop or the steerable chute. "\
+  "Reforger does not have native parachuting support, as a result, there is no mid air freefall control. If you eject from a vehicle mid air you'll instead be flung in the direction of travel until you pull the parachute. To achieve the best result, jump from a static platform or vehicle."\
   ""\
-  "<h3>HOW TO USE A PARACHUTE</h3>"\
-  "1. Equip the parachute in the backpack slot (visually similar to a standard Soviet backpack)."\
-  "2. Jump from a ledge or aircraft."\
-  "3. Press Spacebar to deploy the parachute."\
-  "4. Use W, A, S, D to control direction and forward speed."\
-  "5. Reduce speed significantly before landing. A hard landing can result in severe injury or instant death."\
+  "<h2>HOW TO USE A PARACHUTE</h2>"\
+  "1. Equip the parachute and jump bag."\
+  "2. Transfer your equipment into the jump bag. The transfer time will increase depending on how much equipment you are carrying."\
+  "3. Press the space bar once while falling to deploy the parachute. There is no freefall control; you will descend in a straight line until the parachute is deployed."\
+  "4. Once deployed, use the WASD keys to control the parachute. Parachutes deploy almost instantly, allowing for very low-altitude deployment. Descent speed is affected by wind conditions."\
+  "5. <b>SLOW DOWN</b> before hitting the ground."\
+  "6. Drop your parachute once you have landed."\
+  "• You can press <b>X</b> to cut away your parachute. There is no reserve chute."\
   ""\
   "<h3>OTHER</h3>"\
   "• Press X at any time to cut away the parachute. There is no reserve chute."\
   "• Parachutes can be damaged or destroyed by gunfire or similar hazards during descent, resulting in a fatal fall."\
-  "• Certain RHS watches include an altimeter function. These update approximately every 5 seconds and can be checked while parachuting."
+  "• Certain RHS watches include an altimeter function. These update approximately every 5 seconds but can only be checked once the chute is deployed."
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
   m_iOrder 4
