@@ -3,10 +3,6 @@ GenericEntity {
   MeshObject "{68F2FAAA6941F8BD}" {
    Object "{DBE32115FB8473C1}Assets/Items/Food/ACE_Banana.xob"
   }
-  RigidBody "{68F2FAAA55983945}" {
-   ModelGeometry 1
-   Static 1
-  }
  }
  coords 2405.336 262.684 2916.684
  angles 0 86.728 0
@@ -5368,6 +5364,53 @@ $grp GenericEntity : "{FC609C179F576083}Prefabs/Props/Military/H Barrier/Hesco b
  {
   coords 1433.004 0.015 2955.848
   angles 0 77.321 0
+ }
+}
+$grp GenericEntity : "{FCE3FA547AA13ECC}Prefabs/Structures/Military/Flags/FlagPole_02/FlagPole_02_V2.et" {
+ {
+  components {
+   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_sDefaultMaterial "{DB52C2D4463AA0A0}Assets/Props/Fabric/Flags/Data/Flag_2_3_Blue.emat"
+   }
+   SlotManagerComponent "{55DAE04E55ECE7FA}" {
+    Slots {
+     EntitySlotInfo Flag {
+      Prefab "{9A8AE4E1D90840AC}Prefabs/Props/Fabric/Flags/Flag_1_2_Blue_01.et"
+     }
+    }
+   }
+  }
+  coords 666.85 39 2665.158
+ }
+ {
+  components {
+   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_sDefaultMaterial "{4A53EF08996B2AA7}Assets/Props/Fabric/Flags/Data/Flag_2_3_Green.emat"
+   }
+   SlotManagerComponent "{55DAE04E55ECE7FA}" {
+    Slots {
+     EntitySlotInfo Flag {
+      Prefab "{0CA57DAC081DF11A}Prefabs/Props/Fabric/Flags/Flag_1_2_Green_01.et"
+     }
+    }
+   }
+  }
+  coords 719.686 39 2701.621
+ }
+ {
+  components {
+   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_sDefaultMaterial "{362AC46447DBE58B}Assets/Props/Fabric/Flags/Data/Flag_1_2_Red.emat"
+   }
+   SlotManagerComponent "{55DAE04E55ECE7FA}" {
+    Slots {
+     EntitySlotInfo Flag {
+      Prefab "{E53A39F9653831CE}Prefabs/Props/Fabric/Flags/Flag_1_2_Red_01.et"
+     }
+    }
+   }
+  }
+  coords 775.875 39 2739.548
  }
 }
 SCR_DestructibleBuildingEntity : "{FFDC9C8026E15E29}Prefabs/Structures/Industrial/Repair/RampVehicle_01/RampVehicle_01_concrete.et" {

@@ -47,3 +47,7 @@ PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_G
 TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
  coords 3685.36 0 3364.427
 }
+Vehicle TF_Wheeled_2B1 : "{A78D786EFFDDC8FD}Prefabs/Vehicles/Wheeled/2B9/TF_Wheeled_2B9.et" {
+ coords 956.284 39.344 2751.651
+ angles 0 146.079 0
+}
