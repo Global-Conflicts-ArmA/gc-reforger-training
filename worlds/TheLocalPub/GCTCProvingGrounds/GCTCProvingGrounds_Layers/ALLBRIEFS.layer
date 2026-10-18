@@ -141,7 +141,6 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTitle "Parachuting"
   m_sTextData "<h2>ABOUT</h2>"\
   "We have two types of parachutes. The T-10 static drop or the steerable chute. "\
-  "Reforger does not have native parachuting support, as a result, there is no mid air freefall control. If you eject from a vehicle mid air you'll instead be flung in the direction of travel until you pull the parachute. To achieve the best result, jump from a static platform or vehicle."\
   ""\
   "<h2>HOW TO USE A PARACHUTE</h2>"\
   "1. Equip the parachute and jump bag."\
