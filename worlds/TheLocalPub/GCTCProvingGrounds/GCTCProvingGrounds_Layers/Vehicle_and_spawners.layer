@@ -1,7 +1,7 @@
-$grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
+$grp GenericEntity : "{62D55563549DA97A}Prefabs/GC_SimpleVehicleSpawner.et" {
  MotorbikeSpawner1 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{F22B338BFAC1FD68}Prefabs/Vehicles/Wheeled/Motorbike/motorbike.et"
     }
@@ -14,7 +14,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
  }
  MotorbikeSpawner2 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{F22B338BFAC1FD68}Prefabs/Vehicles/Wheeled/Motorbike/motorbike.et"
     }
@@ -27,7 +27,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
  }
  MotorbikeSpawner3 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{F22B338BFAC1FD68}Prefabs/Vehicles/Wheeled/Motorbike/motorbike.et"
     }
@@ -40,7 +40,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
  }
  MotorbikeSpawner4 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{F22B338BFAC1FD68}Prefabs/Vehicles/Wheeled/Motorbike/motorbike.et"
     }
@@ -53,7 +53,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
  }
  MotorbikeSpawner5 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{F22B338BFAC1FD68}Prefabs/Vehicles/Wheeled/Motorbike/motorbike.et"
     }
@@ -66,7 +66,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
  }
  MotorbikeSpawner6 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{F22B338BFAC1FD68}Prefabs/Vehicles/Wheeled/Motorbike/motorbike.et"
     }
@@ -79,7 +79,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
  }
  MotorbikeSpawner7 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{F22B338BFAC1FD68}Prefabs/Vehicles/Wheeled/Motorbike/motorbike.et"
     }
@@ -92,7 +92,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
  }
  Lightskinspawner1 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{5168FEA3054D6D15}Prefabs/Vehicles/Wheeled/M151A2/M151A2_M2HB_MERDC.et"
     }
@@ -105,7 +105,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
  }
  Lightskinspawner3 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{0B4DEA8078B78A9B}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_PKM.et"
     }
@@ -118,7 +118,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
  }
  Lightskinspawner4 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{3B1EB924602C7A07}Prefabs/Vehicles/Wheeled/M998/M997_maxi_ambulance_MERDC.et"
     }
@@ -131,7 +131,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
  }
  Lightskinspawner5 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{F0EC3EFF70B174B0}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_ambulance_FIA.et"
     }
@@ -144,7 +144,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
  }
  Lightskinspawner2 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{DD774A8FD0989A78}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MERDC.et"
     }
@@ -157,7 +157,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
  }
  Lightskinspawner6 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{EC657C9B3C73E192}Prefabs/Vehicles/Wheeled/M923A1/M923A1_ammo_MERDC.et"
     }
@@ -170,7 +170,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
  }
  Lightskinspawner7 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{C8656AECF5DF41D9}Prefabs/Vehicles/Wheeled/M923A1/M923A1_repair_MERDC.et"
     }
@@ -183,7 +183,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
  }
  Lightskinspawner8 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{26013123314183EA}Prefabs/Vehicles/Wheeled/M923A1/M923A1_tanker_MERDC.et"
     }
@@ -196,7 +196,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
  }
  Lightskinspawner9 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{FD109F3702AAB392}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_ZU23.et"
     }
@@ -209,7 +209,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
  }
  LightArmoured1 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{254289B9C09904AB}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2.et"
     }
@@ -222,7 +222,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
  }
  LightArmoured2 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et"
     }
@@ -235,7 +235,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
  }
  LightArmoured3 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{0A41E8DF1F680496}Prefabs/Vehicles/Tracked/M113/M113A2_APC.et"
     }
@@ -248,7 +248,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
  }
  LightArmoured4 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{0F200E9F3D3AD905}Prefabs/Vehicles/Wheeled/JLTV/OGPK/M2HB/JLTV_OGPK_M2HB_Woodland.et"
     }
@@ -261,7 +261,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
  }
  LightArmoured5 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{BAF198F845DF6BBD}Prefabs/Vehicles/Wheeled/JLTV/OGPK/M134/JLTV_OGPK_M134_Woodland.et"
     }
@@ -274,7 +274,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
  }
  LightArmoured6 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{CFC943343B0D4FBA}Prefabs/Vehicles/Wheeled/JLTV/CROWS/M134/JLTV_CROWS_M134_Woodland.et"
     }
@@ -287,7 +287,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
  }
  LightArmoured7 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{8A9444452D28F5B3}Prefabs/Vehicles/Wheeled/JLTV/CROWS/M240/JLTV_CROWS_M240_Woodland.et"
     }
@@ -300,7 +300,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
  }
  LightArmoured8 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{2E6481BC1EE9A767}Prefabs/Vehicles/Wheeled/JLTV/CROWS/M2HB/JLTV_CROWS_M2HB_Woodland.et"
     }
@@ -313,7 +313,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
  }
  LightArmoured9 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{D17CCBF7FE9AAFEC}Prefabs/Vehicles/Wheeled/JLTV/CROWS_II/M230LF/JLTV_CROWS_II_M230LF_Woodland.et"
     }
@@ -326,7 +326,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
  }
  LightArmoured10 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{4DB3F284FE895321}Prefabs/Vehicles/Wheeled/JLTV/CROWS_II/Javelin/JLTV_CROWS_II_Javelin_Woodland.et"
     }
@@ -339,7 +339,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
  }
  LightArmoured11 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{A7E72E0E66B73009}Prefabs/Vehicles/Wheeled/JLTV/CROWS_II/AIM92/JLTV_CROWS_II_AIM92_Woodland.et"
     }
@@ -352,7 +352,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
  }
  HeavyArmour1 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{D1D2D8ADC6E1D409}Prefabs/Vehicles/Tracked/M1A1/M1A2/SEPv2/M1A2_SEPv2_TUSK_MERDC.et"
     }
@@ -365,7 +365,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
  }
  HeavyArmour2 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{E59B0861ABEF1EBC}Prefabs/Vehicles/Tracked/M1A1/M1A1_MERDC.et"
     }
@@ -378,7 +378,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
  }
  HeavyArmour3 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{D9EB40D7AD0966EC}Prefabs/Vehicles/Tracked/T-72B/T72B_FIA.et"
     }
@@ -391,7 +391,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
  }
  MediumArmour1 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{0FBF8F010F81A4E5}Prefabs/Vehicles/Wheeled/LAV25/LAV25.et"
     }
@@ -404,7 +404,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
  }
  MediumArmour2 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{D8136D90BE12445F}Prefabs/Vehicles/Tracked/2S1/Tank_2S1.et"
     }
@@ -417,7 +417,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
  }
  MediumArmour3 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{A76DCC7AD6494682}Prefabs/Vehicles/Wheeled/Stryker/M1128/Stryker_MGS_MERDC.et"
     }
@@ -430,7 +430,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
  }
  MediumArmour4 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{44E2468321E19451}Prefabs/Vehicles/Wheeled/Stryker/M1296/Stryker_Dragoon_Cage.et"
     }
@@ -443,7 +443,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
  }
  MediumArmour5 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{2AFBAB30EC3850F1}Prefabs/Vehicles/Wheeled/Stryker/M1126/CROWS/Javelin/Stryker_CROWS_Javelin_MERDC.et"
     }
@@ -456,7 +456,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
  }
  HeavyArmour4 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{9057DDA3E3FAA03B}Prefabs/Vehicles/Tracked/T14/Tank_T14_camo.et"
     }
@@ -469,7 +469,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
  }
  MediumArmour6 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{31F0866273C46D76}Prefabs/Vehicles/Wheeled/K17/APC_K17_Berezok.et"
     }
@@ -482,7 +482,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
  }
  LightArmoured12 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{1DF4C30C130D8FAD}Prefabs/Vehicles/Wheeled/K4386/K4386_Armed_Camo.et"
     }
@@ -495,7 +495,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
  }
  LightArmoured14 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{CEFC2B5C4334CADB}Prefabs/Vehicles/Wheeled/TIGR/AGS/GAZ_TIGR_v2_AGS17_PAG17.et"
     }
@@ -508,7 +508,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
  }
  MotorbikeSpawner8 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{F22B338BFAC1FD68}Prefabs/Vehicles/Wheeled/Motorbike/motorbike.et"
     }
@@ -521,7 +521,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
  }
  BoatSpawner1 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{38527BF34A02C3C7}Prefabs/Vehicles/Naval/RHIB/RHIB_Gunboat_MK19.et"
     }
@@ -534,7 +534,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
  }
  BoatSpawner2 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{38527BF34A02C3C7}Prefabs/Vehicles/Naval/RHIB/RHIB_Gunboat_MK19.et"
     }
@@ -547,7 +547,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
  }
  BoatSpawner3 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{DDE009B6A29873EE}Prefabs/Vehicles/Naval/RHIB/RHIB_Gunboat.et"
     }
@@ -560,7 +560,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
  }
  BoatSpawner4 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{DDE009B6A29873EE}Prefabs/Vehicles/Naval/RHIB/RHIB_Gunboat.et"
     }
@@ -573,7 +573,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
  }
  Lightskinspawner10 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{ABAB219273966558}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_PAS13G_USAF.et"
     }
@@ -586,7 +586,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
  }
  MediumArmour7 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{BF0050432603DD9E}Prefabs/Vehicles/Tracked/BMP1/BMP1P_FIA.et"
     }
@@ -599,7 +599,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
  }
  HeliSpawner1 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{CB6215B3B44EA463}Prefabs/Vehicles/Helicopters/UH1H/SP02_GUNSHIP.et"
     }
@@ -612,7 +612,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
  }
  HeliSpawner2 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{685A81835A3E6BC0}Prefabs/Vehicles/Helicopters/AH1S/Army/AH1S_Army_AIM9.et"
     }
@@ -625,7 +625,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
  }
  HeliSpawner3 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{0453402396485205}Prefabs/Vehicles/Helicopters/AH1S/Army/AH1S_Army_M299.et"
     }
@@ -638,7 +638,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
  }
  MediumArmour8 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{A2FDCCF036B73602}Prefabs/Vehicles/Tracked/M2A2/M2A3/M2A3_MERDC.et"
     }
@@ -651,7 +651,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
  }
  HeliSpawner4 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{840FE7B2A2F9F92F}Prefabs/Vehicles/Helicopters/AH1S/Army/AH1S_Army_XM65.et"
     }
@@ -664,7 +664,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
  }
  HeliSpawner5 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{0EEDEA986594A4C4}Prefabs/Vehicles/Helicopters/AH64D/RAF/RAF_AH64D_AGM114L_X2.et"
     }
@@ -677,7 +677,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
  }
  HeliSpawner6 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{0C2362335A4F35BB}Prefabs/Vehicles/Helicopters/AH64D/RAF/RAF_AH64D_AGM65_X2.et"
     }
@@ -690,7 +690,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
  }
  HeliSpawner7 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{B097B054A49D7100}Prefabs/Vehicles/Helicopters/AH64D/RAF/RAF_AH64D_AIM9_X2.et"
     }
@@ -703,7 +703,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
  }
  HeliSpawner8 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{6161681968CBF6E4}Prefabs/Vehicles/Helicopters/AH6M/AH6M_AIM92x1.et"
     }
@@ -716,7 +716,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
  }
  HeliSpawner9 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{E23BB241D2645937}Prefabs/Vehicles/Helicopters/AH6M/AH6M_ATGMx1.et"
     }
@@ -729,7 +729,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
  }
  HeliSpawner10 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{A317D959A4248173}Prefabs/Vehicles/Helicopters/AH6M/AH6M_GAU19.et"
     }
@@ -742,7 +742,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
  }
  HeliSpawner11 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{72C04A6EABC12143}Prefabs/Vehicles/Helicopters/AH6M/AH6M_M134.et"
     }
@@ -755,7 +755,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
  }
  HeliSpawner12 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{3DD336DB69DCD4AC}Prefabs/Vehicles/Helicopters/Mi24/Mi24P_armed_R60.et"
     }
@@ -768,7 +768,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
  }
  HeliSpawner13 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{B7446F42AC0063B8}Prefabs/Vehicles/Helicopters/Mi24/Mi24P_armed_GUV8700.et"
     }
@@ -781,7 +781,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
  }
  HeliSpawner14 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{B7446F42AC0063B8}Prefabs/Vehicles/Helicopters/Mi24/Mi24P_armed_GUV8700.et"
     }
@@ -794,7 +794,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
  }
  HeliSpawner15 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{9CBF2E3809F1EC0C}Prefabs/Vehicles/Helicopters/Mi24/Mi24V_armed_FAB250.et"
     }
@@ -807,7 +807,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
  }
  HeliSpawner16 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{7FF511EDC4034D9F}Prefabs/Vehicles/Helicopters/Mi24/Mi24V_armed_S5.et"
     }
@@ -820,7 +820,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
  }
  HeliSpawner17 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{65ED07118C75B32F}Prefabs/Vehicles/Helicopters/Mi24/Mi24V_armed_UPK23.et"
     }
@@ -833,7 +833,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
  }
  HeliSpawner18 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{DBEC63C9DEE4358C}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed_gunship_HEDP.et"
     }
@@ -846,7 +846,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
  }
  LightArmoured15 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{53982BB1E5E3BE60}Prefabs/Vehicles/Wheeled/LR_3Series/3Series_LWB_Recce.et"
     }
@@ -859,7 +859,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
  }
  LightArmoured16 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{57FE9BCA625CA0E3}Prefabs/Vehicles/Wheeled/LR_3Series/3Series_LWB_Recce_M2HB.et"
     }
@@ -872,7 +872,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
  }
  LightArmoured17 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{B24715D8AC1EC9C6}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_AGS_PAG17.et"
     }
@@ -885,7 +885,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
  }
  LightArmoured18 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{8291D80F4C633078}Prefabs/Vehicles/Wheeled/Ural_4320_Grad/BM 21-1_3M16.et"
     }
@@ -898,7 +898,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
  }
  LightArmoured19 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{B24715D8AC1EC9C6}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_AGS_PAG17.et"
     }
@@ -911,7 +911,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
  }
  LightArmoured20 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{03708F7E58BB7A53}Prefabs/Vehicles/Wheeled/M998/M1151_armed_M2HB.et"
     }
@@ -924,7 +924,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
  }
  MediumArmour9 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{1EF865DC4E3F7E0B}IFV/BMP2/BMP2_Olive_test.et"
     }
@@ -937,7 +937,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
  }
  Lightskinspawner11 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{5F12D6FB80A56688}Prefabs/Vehicles/Wheeled/M998/M1151/BMP_Turret/M1151_armed_BMP.et"
     }
@@ -950,7 +950,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
  }
  Lightskinspawner12 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{20166CE7255DF1E2}Prefabs/Vehicles/Wheeled/M998/M1151/BTR_Turret/M1151_armed_BTR.et"
     }
@@ -963,7 +963,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
  }
  MotorbikeSpawner11 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{F22B338BFAC1FD68}Prefabs/Vehicles/Wheeled/Motorbike/motorbike.et"
     }
@@ -976,7 +976,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
  }
  MotorbikeSpawner10 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{F22B338BFAC1FD68}Prefabs/Vehicles/Wheeled/Motorbike/motorbike.et"
     }
@@ -989,7 +989,7 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
  }
  MotorbikeSpawner9 {
   components {
-   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+   GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
      "{F22B338BFAC1FD68}Prefabs/Vehicles/Wheeled/Motorbike/motorbike.et"
     }
