@@ -1,4 +1,4 @@
-$grp GenericEntity : "{62D55563549DA97A}Prefabs/GC_SimpleVehicleSpawner.et" {
+$grp GenericEntity : "{623555110E2B2CA0}Prefabs/Vehicles/GC_SimpleVehicleSpawner.et" {
  MotorbikeSpawner1 {
   components {
    GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
