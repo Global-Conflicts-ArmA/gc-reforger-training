@@ -1,4 +1,4 @@
-$grp GenericEntity : "{66322C39A0F5EA39}Prefabs/Vehicles/GC_SimpleVehicleSpawner.et" {
+$grp GenericEntity : "{060AF33E51FA9EE9}Prefabs/Vehicles/GC_SimpleVehicleSpawner.et" {
  MotorbikeSpawner1 {
   components {
    GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
@@ -380,7 +380,7 @@ $grp GenericEntity : "{66322C39A0F5EA39}Prefabs/Vehicles/GC_SimpleVehicleSpawner
   components {
    GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
-     "{D9EB40D7AD0966EC}Prefabs/Vehicles/Tracked/T-72B/T72B_FIA.et"
+     "{D9EB40D7AD0966EC}Prefabs/Vehicles/Tracked/T72B/T72B_FIA.et"
     }
     m_fRespawnDistance 30
     m_fRespawnDelay 10
@@ -614,7 +614,7 @@ $grp GenericEntity : "{66322C39A0F5EA39}Prefabs/Vehicles/GC_SimpleVehicleSpawner
   components {
    GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
-     "{685A81835A3E6BC0}Prefabs/Vehicles/Helicopters/AH1S/Army/AH1S_Army_AIM9.et"
+     "{685A81835A3E6BC0}Prefabs/Vehicles/Helicopters/AH1S/Army/AH1S_Army_AIM9_X2.et"
     }
     m_fRespawnDistance 30
     m_fRespawnDelay 10
@@ -627,7 +627,7 @@ $grp GenericEntity : "{66322C39A0F5EA39}Prefabs/Vehicles/GC_SimpleVehicleSpawner
   components {
    GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
-     "{0453402396485205}Prefabs/Vehicles/Helicopters/AH1S/Army/AH1S_Army_M299.et"
+     "{0453402396485205}Prefabs/Vehicles/Helicopters/AH1S/Army/AH1S_Army_M299_X2.et"
     }
     m_fRespawnDistance 30
     m_fRespawnDelay 10
@@ -653,7 +653,7 @@ $grp GenericEntity : "{66322C39A0F5EA39}Prefabs/Vehicles/GC_SimpleVehicleSpawner
   components {
    GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
-     "{840FE7B2A2F9F92F}Prefabs/Vehicles/Helicopters/AH1S/Army/AH1S_Army_XM65.et"
+     "{840FE7B2A2F9F92F}Prefabs/Vehicles/Helicopters/AH1S/Army/AH1S_Army_XM65_X2.et"
     }
     m_fRespawnDistance 30
     m_fRespawnDelay 10
@@ -666,7 +666,7 @@ $grp GenericEntity : "{66322C39A0F5EA39}Prefabs/Vehicles/GC_SimpleVehicleSpawner
   components {
    GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
-     "{0EEDEA986594A4C4}Prefabs/Vehicles/Helicopters/AH64D/RAF/RAF_AH64D_AGM114L_X2.et"
+     "{0EEDEA986594A4C4}Prefabs/Vehicles/Helicopters/AH64D/RAF/AH64D_RAF_M299_X2.et"
     }
     m_fRespawnDistance 30
     m_fRespawnDelay 10
@@ -679,7 +679,7 @@ $grp GenericEntity : "{66322C39A0F5EA39}Prefabs/Vehicles/GC_SimpleVehicleSpawner
   components {
    GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
-     "{0C2362335A4F35BB}Prefabs/Vehicles/Helicopters/AH64D/RAF/RAF_AH64D_AGM65_X2.et"
+     "{0C2362335A4F35BB}Prefabs/Vehicles/Helicopters/AH64D/RAF/AH64D_RAF_LAU117_X2.et"
     }
     m_fRespawnDistance 30
     m_fRespawnDelay 10
@@ -692,7 +692,7 @@ $grp GenericEntity : "{66322C39A0F5EA39}Prefabs/Vehicles/GC_SimpleVehicleSpawner
   components {
    GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
-     "{B097B054A49D7100}Prefabs/Vehicles/Helicopters/AH64D/RAF/RAF_AH64D_AIM9_X2.et"
+     "{B097B054A49D7100}Prefabs/Vehicles/Helicopters/AH64D/RAF/AH64D_RAF_AIM9_X2.et"
     }
     m_fRespawnDistance 30
     m_fRespawnDelay 10
@@ -705,7 +705,7 @@ $grp GenericEntity : "{66322C39A0F5EA39}Prefabs/Vehicles/GC_SimpleVehicleSpawner
   components {
    GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
-     "{6161681968CBF6E4}Prefabs/Vehicles/Helicopters/AH6M/AH6M_AIM92x1.et"
+     "{6161681968CBF6E4}Prefabs/Vehicles/Helicopters/AH6M/AH6M_AIM92_X1.et"
     }
     m_fRespawnDistance 30
     m_fRespawnDelay 10
@@ -718,7 +718,7 @@ $grp GenericEntity : "{66322C39A0F5EA39}Prefabs/Vehicles/GC_SimpleVehicleSpawner
   components {
    GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
-     "{E23BB241D2645937}Prefabs/Vehicles/Helicopters/AH6M/AH6M_ATGMx1.et"
+     "{E23BB241D2645937}Prefabs/Vehicles/Helicopters/AH6M/AH6M_M299_X1.et"
     }
     m_fRespawnDistance 30
     m_fRespawnDelay 10
@@ -731,7 +731,7 @@ $grp GenericEntity : "{66322C39A0F5EA39}Prefabs/Vehicles/GC_SimpleVehicleSpawner
   components {
    GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
-     "{A317D959A4248173}Prefabs/Vehicles/Helicopters/AH6M/AH6M_GAU19.et"
+     "{A317D959A4248173}Prefabs/Vehicles/Helicopters/AH6M/AH6M_GAU19_X1.et"
     }
     m_fRespawnDistance 30
     m_fRespawnDelay 10
@@ -744,7 +744,7 @@ $grp GenericEntity : "{66322C39A0F5EA39}Prefabs/Vehicles/GC_SimpleVehicleSpawner
   components {
    GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
-     "{72C04A6EABC12143}Prefabs/Vehicles/Helicopters/AH6M/AH6M_M134.et"
+     "{72C04A6EABC12143}Prefabs/Vehicles/Helicopters/AH6M/AH6M_M134_X2.et"
     }
     m_fRespawnDistance 30
     m_fRespawnDelay 10
@@ -757,7 +757,7 @@ $grp GenericEntity : "{66322C39A0F5EA39}Prefabs/Vehicles/GC_SimpleVehicleSpawner
   components {
    GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
-     "{3DD336DB69DCD4AC}Prefabs/Vehicles/Helicopters/Mi24/Mi24P_armed_R60.et"
+     "{3DD336DB69DCD4AC}Prefabs/Vehicles/Helicopters/Mi24/Mi24P_Armed_R60_X2.et"
     }
     m_fRespawnDistance 30
     m_fRespawnDelay 10
@@ -770,7 +770,7 @@ $grp GenericEntity : "{66322C39A0F5EA39}Prefabs/Vehicles/GC_SimpleVehicleSpawner
   components {
    GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
-     "{B7446F42AC0063B8}Prefabs/Vehicles/Helicopters/Mi24/Mi24P_armed_GUV8700.et"
+     "{B7446F42AC0063B8}Prefabs/Vehicles/Helicopters/Mi24/Mi24P_Armed_GUV8700_X2.et"
     }
     m_fRespawnDistance 30
     m_fRespawnDelay 10
@@ -783,7 +783,7 @@ $grp GenericEntity : "{66322C39A0F5EA39}Prefabs/Vehicles/GC_SimpleVehicleSpawner
   components {
    GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
-     "{B7446F42AC0063B8}Prefabs/Vehicles/Helicopters/Mi24/Mi24P_armed_GUV8700.et"
+     "{B7446F42AC0063B8}Prefabs/Vehicles/Helicopters/Mi24/Mi24P_Armed_GUV8700_X2.et"
     }
     m_fRespawnDistance 30
     m_fRespawnDelay 10
@@ -796,7 +796,7 @@ $grp GenericEntity : "{66322C39A0F5EA39}Prefabs/Vehicles/GC_SimpleVehicleSpawner
   components {
    GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
-     "{9CBF2E3809F1EC0C}Prefabs/Vehicles/Helicopters/Mi24/Mi24V_armed_FAB250.et"
+     "{9CBF2E3809F1EC0C}Prefabs/Vehicles/Helicopters/Mi24/Mi24V_Armed_BDZUMK_X6.et"
     }
     m_fRespawnDistance 30
     m_fRespawnDelay 10
@@ -809,7 +809,7 @@ $grp GenericEntity : "{66322C39A0F5EA39}Prefabs/Vehicles/GC_SimpleVehicleSpawner
   components {
    GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
-     "{7FF511EDC4034D9F}Prefabs/Vehicles/Helicopters/Mi24/Mi24V_armed_S5.et"
+     "{7FF511EDC4034D9F}Prefabs/Vehicles/Helicopters/Mi24/Mi24V_Armed_UB1657_X4.et"
     }
     m_fRespawnDistance 30
     m_fRespawnDelay 10
@@ -822,7 +822,7 @@ $grp GenericEntity : "{66322C39A0F5EA39}Prefabs/Vehicles/GC_SimpleVehicleSpawner
   components {
    GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
-     "{65ED07118C75B32F}Prefabs/Vehicles/Helicopters/Mi24/Mi24V_armed_UPK23.et"
+     "{65ED07118C75B32F}Prefabs/Vehicles/Helicopters/Mi24/Mi24V_Armed_UPK23_X2.et"
     }
     m_fRespawnDistance 30
     m_fRespawnDelay 10
@@ -926,7 +926,7 @@ $grp GenericEntity : "{66322C39A0F5EA39}Prefabs/Vehicles/GC_SimpleVehicleSpawner
   components {
    GC_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
     m_aPrefabList {
-     "{1EF865DC4E3F7E0B}IFV/BMP2/BMP2_Olive_test.et"
+     "{CD2BD9BA1E029614}IFV/BMP2/BMP2_Brush_Camo_ATGM.et"
     }
     m_fRespawnDistance 30
     m_fRespawnDelay 10
